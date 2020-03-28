@@ -30,7 +30,6 @@ const Blademaster = ({onClickTheChamp}) => {
                 </div>
                 {blademaster.map((v) => {
                     const name = v.imagePaths.replace(".png", "");
-                    console.log(v.imagePaths);
                     return (
                         <div
                             id={name}

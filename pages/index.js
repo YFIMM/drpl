@@ -1,5 +1,6 @@
-import React, {useCallback, useState} from "react";
+import React, {useCallback} from "react";
 import {useDispatch} from "react-redux";
+import AdSense from 'react-adsense';
 import {Col, Row} from "antd";
 import Blademaster from "../components/Traits/Blademaster";
 import Chrono from "../components/Traits/Chrono";
@@ -144,6 +145,12 @@ const Home = () => {
                     Made by YFIMM
                     (yfimm1275@gmail.com)
                 </div>
+                <AdSense.Google
+                    client="ca-pub-2491090505738410"
+                    slot="7806394673"
+                    format="auto"
+                    responsive="true"
+                />
             </div>
         </>
     );

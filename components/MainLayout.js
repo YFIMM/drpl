@@ -1,7 +1,6 @@
 import React from "react";
 import {useSelector} from "react-redux";
 import {Col, Row} from "antd";
-import Link from "next/link";
 import HeadNav from "./HeadNav";
 
 const MainLayout = ({children}) => {
