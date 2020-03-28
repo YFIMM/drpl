@@ -30,6 +30,7 @@ const Blademaster = ({onClickTheChamp}) => {
                 </div>
                 {blademaster.map((v) => {
                     const name = v.imagePaths.replace(".png", "");
+                    console.log(v.imagePaths);
                     return (
                         <div
                             id={name}
@@ -41,7 +42,7 @@ const Blademaster = ({onClickTheChamp}) => {
                                 backgroundPosition: "center",
                                 backgroundRepeat: "no-repeat",
                                 backgroundSize: "cover",
-                                backgroundImage: `url(https://s3.ap-northeast-2.amazonaws.com/dorapalee/assets${v.imagePaths})`,
+                                backgroundImage: `url(https://s3.ap-northeast-2.amazonaws.com/dorapalee/assets/${v.imagePaths})`,
                                 margin: "0 3px", opacity: "0.5", cursor: "pointer",
                             }}
                         >
