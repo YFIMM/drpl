@@ -37,7 +37,7 @@ const Starship = ({onClickTheChamp}) => {
                                 backgroundPosition: "center",
                                 backgroundRepeat: "no-repeat",
                                 backgroundSize: "cover",
-                                backgroundImage: `url(http://localhost:3000/assets/${v.imagePaths})`,
+                                backgroundImage: `url(http://localhost:${process.env.PORT || 3000}/assets/${v.imagePaths})`,
                                 margin: "0 9px", opacity: "0.5", cursor: "pointer",
                             }}
                         >
