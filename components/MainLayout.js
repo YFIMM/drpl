@@ -1,38 +1,14 @@
 import React from "react";
 import {useSelector} from "react-redux";
-import {Col, Menu, Row} from "antd";
+import {Col, Row} from "antd";
 import Link from "next/link";
+import HeadNav from "./HeadNav";
 
 const MainLayout = ({children}) => {
     const {trait} = useSelector(state => state.traits);
     return (
         <>
-            <Menu mode="horizontal" style={{backgroundColor: "black"}}>
-                <Menu.Item key="main-logo">
-                    <Link href="/">
-                        <a
-                            style={{
-                                fontFamily: "Gotu, sans-serif",
-                                fontSize: "25px",
-                                color: "white"
-                            }}
-                        >
-                            DRPL
-                        </a>
-                    </Link>
-                </Menu.Item>
-                <Menu.Item key="drpl" style={{float: "right"}}>
-                    <Link href="/">
-                        <a style={{
-                            fontFamily: "Nanum Myeongjo, serif",
-                            fontSize: "25px",
-                            color: "white",
-                        }}>
-                            가수는 나얼박이 방송은 도랄팤이
-                        </a>
-                    </Link>
-                </Menu.Item>
-            </Menu>
+            <HeadNav/>
             <div style={{margin: "10px auto", textAlign: "center", height: "90px"}}>
                 <div style={{fontSize: "20px",}}>Total : {trait["total"].toString()}</div>
                 <Row style={{margin: "10px"}}>

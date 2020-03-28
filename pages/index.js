@@ -139,6 +139,12 @@ const Home = () => {
                     </Row>
                 </Col>
             </Row>
+            <div style={{height: "250px",textAlign:"center",padding:"30px auto"}}>
+                <div style={{marginTop:"90px"}}>
+                    Made by YFIMM
+                    (yfimm1275@gmail.com)
+                </div>
+            </div>
         </>
     );
 };
