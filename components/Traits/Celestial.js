@@ -47,7 +47,7 @@ const Celestial = ({onClickTheChamp}) => {
                                 backgroundPosition: "center",
                                 backgroundRepeat: "no-repeat",
                                 backgroundSize: "cover",
-                                backgroundImage: `url(http://localhost:${process.env.PORT || 3000}/assets/${v.imagePaths})`,
+                                backgroundImage: `url(https://s3.ap-northeast-2.amazonaws.com/dorapalee/assets/${v.imagePaths})`,
                                 margin: "0 3px", opacity: "0.5", cursor: "pointer",
                             }}
                         >
