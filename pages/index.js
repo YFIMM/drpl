@@ -1,6 +1,5 @@
 import React, {useCallback} from "react";
 import {useDispatch} from "react-redux";
-import AdSense from 'react-adsense';
 import {Col, Row} from "antd";
 import Blademaster from "../components/Traits/Blademaster";
 import Chrono from "../components/Traits/Chrono";
@@ -27,6 +26,7 @@ import Mercenary from "../components/Traits/Mercenary";
 import Starship from "../components/Traits/Starship";
 import General from "../components/Traits/General";
 import {MINUS_TOTAL, MINUS_TRAIT, PLUS_TOTAL, PLUS_TRAIT} from "../reducers/traits";
+// import AdSense from 'react-adsense';
 
 const Home = () => {
     const dispatch = useDispatch();
