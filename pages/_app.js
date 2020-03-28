@@ -16,6 +16,8 @@ const LOLCHESS = ({Component, store}) => {
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/antd/3.16.2/antd.css"/>
                     <link href="https://fonts.googleapis.com/css?family=Gotu|Nanum+Myeongjo&display=swap"
                           rel="stylesheet"/>
+                    <script data-ad-client="ca-pub-2491090505738410" async
+                            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"/>
                 </Head>
                 <body style={{
                     backgroundColor: "black",
