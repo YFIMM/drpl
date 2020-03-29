@@ -18,6 +18,7 @@ const LOLCHESS = ({Component, store}) => {
                           rel="stylesheet"/>
                     <script data-ad-client="ca-pub-2491090505738410" async
                             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"/>
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"/>
                 </Head>
                 <body style={{
                     backgroundColor: "black",

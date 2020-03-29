@@ -8,7 +8,7 @@
     "dev": "next",
     "build": "cross-env BUNDLE_ANALYZE=both next build",
     "prestart": "npm run build",
-    "start": "cross-env NODE_ENV=production PORT=80 pm2 start server.js"
+    "start": "cross-env NODE_ENV=production PORT=80 pm2 reload server.js"
   },
   "keywords": [],
   "author": "",
@@ -25,7 +25,6 @@
     "pm2": "^4.2.3",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
-    "react-adsense": "^0.1.0",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",
     "redux": "^4.0.5",
