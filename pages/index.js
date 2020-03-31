@@ -27,7 +27,6 @@ import Starship from "../components/Traits/Starship";
 import General from "../components/Traits/General";
 import {MINUS_TOTAL, MINUS_TRAIT, PLUS_TOTAL, PLUS_TRAIT} from "../reducers/traits";
 import Adsense from "../components/Adsense";
-import AdSense from 'react-adsense-ad';
 
 const Home = () => {
     const dispatch = useDispatch();
@@ -146,14 +145,7 @@ const Home = () => {
                     Made by YFIMM
                     (yfimm1275@gmail.com)
                 </div>
-                {/*<Adsense/>*/}
-                <AdSense.Google
-                    style={{ display: 'block' }}
-                    client="ca-pub-7268777113992602"
-                    slot="4969624332"
-                    format="auto"
-                    responsive='true'
-                />
+                <Adsense/>
             </div>
         </>
     );
