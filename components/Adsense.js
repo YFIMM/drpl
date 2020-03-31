@@ -8,8 +8,10 @@ const Adsense = () => {
         <>
             <ins className="adsbygoogle"
                  style={{display: "block"}}
-                 data-ad-client='ca-pub-6526927663678536'
+                 data-ad-client="ca-pub-7268777113992602"
+                 data-ad-slot="4969624332"
                  data-ad-format='auto'
+                 data-full-width-responsive="true"
             />
         </>
     );

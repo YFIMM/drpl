@@ -146,7 +146,7 @@ const Home = () => {
                     Made by YFIMM
                     (yfimm1275@gmail.com)
                 </div>
-                {/*<Adsense/>*/}
+                <Adsense/>
             </div>
         </>
     );
