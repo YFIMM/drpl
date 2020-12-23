@@ -11,7 +11,8 @@ export default class AdComponent extends React.Component {
                  style={{ display: 'block' }}
                  data-ad-client='ca-pub-7268777113992602'
                  data-ad-slot='4969624332'
-                 data-ad-format='auto' />
+                 data-ad-format='auto'
+            />
         );
     }
 }

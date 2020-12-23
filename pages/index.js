@@ -28,6 +28,7 @@ import General from "../components/Traits/General";
 import {MINUS_TOTAL, MINUS_TRAIT, PLUS_TOTAL, PLUS_TRAIT} from "../reducers/traits";
 import Adsense from "../components/Adsense";
 
+
 const Home = () => {
     const dispatch = useDispatch();
 
@@ -140,12 +141,14 @@ const Home = () => {
                     </Row>
                 </Col>
             </Row>
-            <div style={{height: "250px",textAlign:"center",padding:"30px auto"}}>
-                <div style={{marginTop:"90px"}}>
+            <div style={{height: "250px", textAlign: "center", padding: "30px auto"}}>
+                <div style={{marginTop: "90px"}}>
                     Made by YFIMM
                     (yfimm1275@gmail.com)
                 </div>
-                <Adsense/>
+                <div style={{width: "300px", height: "300px"}}>
+                    <Adsense/>
+                </div>
             </div>
         </>
     );
